@@ -33,6 +33,7 @@
       </test>
     </junit>
   </target>
+
   <target name="war" depends="compile">
       <war destfile="dest/SampleWebApp.war" webxml="WebContent/WEB-INF/web.xml">
           <fileset dir="WebContent"/>
